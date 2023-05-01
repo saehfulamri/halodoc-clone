@@ -12,7 +12,7 @@ const Ovitcard = (props) => {
                         maxWidth="52px"
                         width="48px"></img>
                 </div>
-                <div className="col-12 col-lg-10 d-flex justify-content align-items-center p-0">
+                <div className="col-12 col-lg-10 d-flex justify-content-between align-items-center p-0">
                     {props.text}
                 </div>
             </div>
