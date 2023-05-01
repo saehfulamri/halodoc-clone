@@ -3,11 +3,12 @@ import Card from "react-bootstrap/Card";
 const Herocard = (props) => {
     return (
         <Card style={{ minHeight: "90px" }}>
-            <div className="row mx-5">
+            <div className="row mx-4 mx-lg-5">
                 <Card.Img
                     variant="top"
                     src={props.image}
                     className="p-0 mt-2"
+                    style={{ minWidth: "60px" }}
                     // style={{ padding: "5% 25% 0% 25%" }}
                 />
             </div>
